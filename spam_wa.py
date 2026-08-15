@@ -16,6 +16,7 @@ def header():
     print(" |____/  |_____|\\___/|_|  |_|    /_/   \\_/_/  |_|")
     print()
     print("              SPAMWAHD - Auto Chat Tool")
+    print("              PYTHON - Spam Chat")
     print("=" * 70)
     print()
 
@@ -23,8 +24,8 @@ def header():
 header()
 
 try:
-    pesan = input("📨 Masukkan pesan yang ingin dikirim: ")
-    jumlah = int(input("🔢 Berapa kali pesan ingin dikirim? "))
+    pesan = input("📨 Masukkan pesan yang anda ingin kirim: ")
+    jumlah = int(input("🔢 Masukan berapa kali pesan yang anda ingin kirim? "))
 
     print("\n🖱️ Arahkan kursor ke kolom chat dalam 5 detik...")
     time.sleep(5)
@@ -32,7 +33,7 @@ try:
     position = pyautogui.position()
     print(f"📌 Posisi dikunci di: {position}")
 
-    print("⏳ Mulai mengirim dalam 3 detik...")
+    print("⏳ Mulai mengirim pesan dalam 3 detik...")
     time.sleep(3)
 
     terkirim = 0
@@ -54,4 +55,4 @@ except KeyboardInterrupt:
     print(f"📦 Total yang sudah terkirim: {terkirim}")
 
 except Exception as e:
-    print(f"⚠️ Terjadi kesalahan: {e}")
+    print(f"⚠️ Terjadi kesalahan dan Error: {e}")

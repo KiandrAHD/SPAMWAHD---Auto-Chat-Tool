@@ -118,7 +118,6 @@ SPAMWAHD---Auto-Chat-Tool/
 │
 ├── 📄 spam_wa.py          # Skrip utama: logika otomatisasi pengiriman pesan
 ├── 📄 README.md           # Dokumentasi proyek (file ini)
-└── 📄 LICENSE             # Lisensi proyek (MIT License)
 ```
 
 ### 📄 Penjelasan File
@@ -127,7 +126,6 @@ SPAMWAHD---Auto-Chat-Tool/
 | :--- | :--- |
 | **spam_wa.py** | File utama yang berisi seluruh logika program - menerima input pesan, menangkap posisi kursor, melakukan klik & ketik otomatis, serta menangani jeda waktu dan error handling. |
 | **README.md** | Dokumentasi proyek yang menjelaskan cara instalasi, penggunaan, dan informasi penting lainnya. |
-| **LICENSE** | Berisi lisensi resmi proyek (MIT License). |
 
 ---
 
